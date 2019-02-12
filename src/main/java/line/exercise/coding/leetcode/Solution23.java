@@ -1,6 +1,6 @@
 package line.exercise.coding.leetcode;
 
-import line.exercise.coding.leetcode.base.struct.ListNode;
+import line.exercise.coding.leetcode.struct.ListNode;
 
 /**
  * 直接把所有的链表合并到lists[0]，则第一个链表中的元素会有重复遍历的问题，时间复杂度较高。
@@ -12,7 +12,7 @@ import line.exercise.coding.leetcode.base.struct.ListNode;
  * @author line
  * @date 2019年2月11日 下午7:51:33
  */
-class Solution {
+public class Solution23 {
 	public ListNode mergeKLists(ListNode[] lists) {
 		int len = lists.length;
 		if (lists == null || len == 0)

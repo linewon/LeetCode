@@ -1,4 +1,4 @@
-package line.exercise.coding.leetcode.base.struct;
+package line.exercise.coding.leetcode.struct;
 
 /**
  * 
